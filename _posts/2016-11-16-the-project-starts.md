@@ -13,7 +13,7 @@ Coding is immensely difficult. It isn't hard to do in the way people think of ph
 
 Fortunately for me, I have such an opportunity.
 
-# The Project
+## The Project
 A family member provides productivity coaching (i.e. "life coaching") services to those seeking higher levels of accomplishment. In her practice, she has developed a system for creating and tracking goals and tasks that support a client's achievements. The current system is charted using a spreadsheet in which the client enters their goals, the tasks to be completed, and completion dates for each. This system, while reported by clients to be helpful, does not provide the level of coaching interaction desired by the coach.  Specifically,
 * the data entered in the spreadsheet is not easily shared with the coach;
 * the coach is unable to, in real time, be notified of changes to the data;
