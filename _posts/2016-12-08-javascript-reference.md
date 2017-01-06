@@ -306,6 +306,7 @@ Compares two strings. Returns one of three values:
 * 1 (or a positive number) is the string comes after the other alphanbetically.
 
 ### Singleton Built-In Objects
+
 #### Global: catchall for properties and objects that don't otherwise have an owning object.
 * URI-Encoding Methods: encode URIs so that a browser can accept and understand them.
     *  `encodeURI()`: works on an entire URI. Does not encode special characters.
