@@ -306,31 +306,30 @@ Compares two strings. Returns one of three values:
 * 1 (or a positive number) is the string comes after the other alphanbetically.
 
 ### Singleton Built-In Objects
-* Global: catchall for properties and objects that don't otherwise have an owning object.
-    * URI-Encoding Methods: encode URIs so that a browser can accept and understand them.
-        *  `encodeURI()`: works on an entire URI. Does not encode special characters.
-        * `encodeURIComponent`: works on segment of a URI. Encodes any special character.
-        * `decodeURI()`
-        * `decodeURIComponent()`
-    * The eval() Method: Accepts one argument, a string of ECMAScript to execute.  Not hoisted. Use caution when using, particularly when passing user-entered data to it.  Can lead to code injection.
-    * Global object properties: has several properties, including values and constructors.
-    * The Window object: The `Global` object's delegate in a browser.
+#### Global: catchall for properties and objects that don't otherwise have an owning object.
+* URI-Encoding Methods: encode URIs so that a browser can accept and understand them.
+    *  `encodeURI()`: works on an entire URI. Does not encode special characters.
+    * `encodeURIComponent`: works on segment of a URI. Encodes any special character.
+    * `decodeURI()`
+    * `decodeURIComponent()`
+* The eval() Method: Accepts one argument, a string of ECMAScript to execute.  Not hoisted. Use caution when using, particularly when passing user-entered data to it.  Can lead to code injection.
+* Global object properties: has several properties, including values and constructors.
+* The Window object: The `Global` object's delegate in a browser.
 
-* The Math Object
-    * Math Object properties: Several properties related to mathematical calculations. Faster than writing in JS directly.
-    * The min() and max() methods: Determine smallest or largest in a group of numbers. Used with apply to find min or max in an array.
+#### The Math Object
+* Math Object properties: Several properties related to mathematical calculations. Faster than writing in JS directly.
+* The min() and max() methods: Determine smallest or largest in a group of numbers. Used with apply to find min or max in an array.
 ```
 var values = [1, 2, 3, 4, 5, 6, 7, 8];
 var max = Math.max.apply(Math, values);
 ```
 
-    * Rounding Methods: Round decimal values to integers.
-        * `Math.ceil()`: rounds up
-        * `Math.floor()`: rounds down
-        * `Math.round()`: standard round function (up for 0.5 or higher).
+* Rounding Methods: Round decimal values to integers.
+    * `Math.ceil()`: rounds up
+    * `Math.floor()`: rounds down
+    * `Math.round()`: standard round function (up for 0.5 or higher).
 
-    * The random() Method: Returns a random number between 0 and 1, but not 0 or 1. Can be used to select numbers in a certain integer range:
+* The random() Method: Returns a random number between 0 and 1, but not 0 or 1. Can be used to select numbers in a certain integer range:
 ```
 number = Math.floor(Math.random() * total_number_of_choices + first_possible_value);
 ```
-    * Other Methods: Several other methods beyond the scope of this guide.
