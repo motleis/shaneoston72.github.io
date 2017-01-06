@@ -320,6 +320,7 @@ Compares two strings. Returns one of three values:
 #### The Math Object
 * Math Object properties: Several properties related to mathematical calculations. Faster than writing in JS directly.
 * The min() and max() methods: Determine smallest or largest in a group of numbers. Used with apply to find min or max in an array.
+
 ```
 var values = [1, 2, 3, 4, 5, 6, 7, 8];
 var max = Math.max.apply(Math, values);
@@ -331,6 +332,7 @@ var max = Math.max.apply(Math, values);
     * `Math.round()`: standard round function (up for 0.5 or higher).
 
 * The random() Method: Returns a random number between 0 and 1, but not 0 or 1. Can be used to select numbers in a certain integer range:
+
 ```
 number = Math.floor(Math.random() * total_number_of_choices + first_possible_value);
 ```
